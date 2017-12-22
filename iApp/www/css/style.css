@@ -1,0 +1,764 @@
+/* Empty. Add your own CSS if you like */
+
+a {
+    text-decoration: none;
+}
+
+body {
+    cursor: url('http://ionicframework.com/img/finger.png'), auto;
+}
+
+.tab-item {
+    color: #ef473a;
+}
+
+.slidePicture img {
+    width: 100%;
+    height: 100vh;
+}
+
+.mallBC {
+    background-color: #f5f5f5;
+}
+
+.mallBC .list {
+    background-color: #fff;
+    margin-bottom: 12px;
+}
+
+.slidePicture .slider-pager-page {
+    display: none;
+}
+
+.slider-slide a.button {
+    position: absolute;
+    left: calc(50% - 45px);
+    bottom: calc(20% - 23px);
+}
+
+.mallBC .slider-slide img {
+    width: 100%;
+}
+
+.listnav .item {
+    display: inline-block;
+    border: none;
+    padding: 12px;
+    width: calc(20% - 1px);
+}
+
+.listnav img {
+    width: 13vw;
+    height: 13vw;
+}
+
+.mallBC p {
+    font-size: 10px;
+    text-align: center;
+}
+
+.listgoods .item {
+    display: inline-block;
+    border: none;
+    padding: 12px;
+    width: calc(25% - 1px);
+}
+
+.listgoods img {
+    width: 18vw;
+    height: 18vw;
+    border-radius: 50%;
+}
+
+.mallBC .list h4 {
+    padding-left: 2vw;
+}
+
+.goodsale .item {
+    width: calc(100% / 3 - 1px);
+    display: inline-block;
+    border: none;
+}
+
+.goodsale img {
+    width: 100%;
+}
+
+.goodsale span {
+    color: #f00;
+    margin: 0 5px 0 0;
+    font-size: 10px;
+}
+
+.goodsale del {
+    font-size: 10px;
+}
+
+.tj h4 {
+    text-align: center;
+    color: #f00;
+}
+
+.tj img {
+    width: 100%;
+}
+
+.ts img {
+    width: calc(50% - 2px);
+}
+
+
+/*******************/
+
+.person .personTop {
+    width: 100%;
+    height: 240px;
+    background: url(../img/personBc.png);
+    background-size: cover;
+}
+
+.personTop button.btnUser {
+    display: none;
+    margin: 0 auto;
+}
+
+.personTop .button {
+    display: block;
+    margin: 0 auto;
+}
+
+.userImg {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 50%;
+    /*border: 2px solid #fff;*/
+    text-align: center;
+}
+
+.userImg img {
+    width: 100px;
+    height: 100px;
+}
+
+.person {
+    background-color: #f5f5f5;
+}
+
+.person ul {
+    overflow: hidden;
+    width: 100%;
+}
+
+.person li {
+    float: left;
+    width: 25%;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 16px;
+    border-right: 1px solid #ccc;
+}
+
+.person li:nth-last-child(1) {
+    border-right: none;
+}
+
+.person li i {
+    color: #fff;
+}
+
+.person li p {
+    margin-top: 5px;
+    color: #fff;
+}
+
+.orderTop {
+    padding: 10px 0px 10px 16px;
+    height: 45px;
+    margin-top: 10px;
+    border-bottom: 2px solid #ddd;
+}
+
+.orderTop span {
+    float: left;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #f00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.orderTop span i {
+    color: #fff;
+}
+
+.orderTop h2 {
+    margin-left: 10px;
+    display: inline-block;
+    padding: 5px;
+}
+
+.orderTop a {
+    float: right;
+    padding: 5px;
+}
+
+.orderTop a i {
+    margin: 0 5px;
+}
+
+.orderBottom {
+    overflow: hidden;
+    width: 100%;
+}
+
+.orderBottom .item {
+    float: left;
+    border: none;
+    width: calc(100% / 3);
+    margin: 0;
+    text-align: center;
+}
+
+.orderBottom i {
+    font-size: 25px;
+}
+
+.orderBottom img {
+    width: 35px;
+    height: 35px;
+}
+
+.orderBottom p {
+    font-size: 14px;
+}
+
+.safe span {
+    background-color: #ff80c1;
+}
+
+.order .list {
+    margin-bottom: 10px;
+}
+
+.foot a {
+    font-size: 14px;
+}
+
+.foot i {
+    color: #999;
+}
+
+.safe>div.list {
+    margin-bottom: 10px;
+}
+
+.foot img {
+    width: 50px;
+    height: 50px;
+}
+
+.left-buttons i {
+    font-size: 30px;
+    margin: 3px;
+}
+
+.back-text {
+    display: none!important;
+}
+
+.set .item img {
+    width: 45px;
+    height: 45px;
+}
+
+.item-thumbnail-left,
+.item-thumbnail-left .item-content {
+    padding-left: 70px;
+    min-height: 70px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.bar-assertive .button {
+    border: none;
+}
+
+
+/*商品分类*/
+
+.row {
+    padding: 0;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+.bar {
+    padding: 0;
+}
+
+.zy-tabs {
+    display: inline-block;
+    padding: 11px;
+    border: none;
+}
+
+.goods .slider-slide {
+    height: calc(100vh - 88px);
+}
+
+.goods .slider-pager {
+    display: none;
+}
+
+.item-active {
+    border-bottom: 1px solid #f00;
+}
+
+.page-brand .item {
+    display: inline-block;
+    width: calc(100% / 3);
+    /*border: 1px solid #ccc;*/
+    padding: 5px;
+    margin: 0;
+}
+
+.goods .page-brand .item img {
+    width: 100%;
+}
+
+.goods .item p {
+    text-align: center;
+}
+
+
+/*消息中心*/
+
+.message .ion-chatbox-working {
+    font-size: 25px;
+    color: #666;
+}
+
+.message p {
+    white-space: normal;
+}
+
+.home .ion-chatbox-working {
+    margin-right: 6px;
+}
+
+.home label {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.g-tabs {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.g-tabs a {
+    width: 150px;
+    height: 44px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    font-size: 20px;
+}
+
+
+/**********************************************/
+
+.goods>.bar-header {
+    background-color: #f7f7f7;
+}
+
+.goods a.tab-item-active {
+    border-bottom: 2px solid #f00;
+    color: #f00;
+}
+
+.g-classify ul {
+    display: block;
+    width: 100px;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.g-classify ul li {
+    border-bottom: 1px solid #e0e0e0;
+    text-align: center;
+    line-height: 50px;
+    width: 89px;
+    height: 49px;
+    font-size: 12px;
+}
+
+.g-classify .nav-current {
+    color: #f00;
+    border-right: 1px solid #fff;
+    background-color: #fff;
+}
+
+.g-classify .nav-blur {
+    color: #252525;
+    border-right: 1px solid #e0e0e0;
+    background-color: #f3f4f6;
+}
+
+.g-classify .content .item {
+    display: inline-block;
+    width: calc(100% / 3);
+    border: none;
+    padding: 5px;
+    margin: 0;
+}
+
+.g-classify .item img {
+    width: 100%;
+}
+
+.g-classify .col {
+    padding: 0;
+}
+
+
+/****************购物车************************/
+
+.cart .card {
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.c-button {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.c-button button {
+    width: calc(50% - 2px);
+}
+
+
+/***********************登录************************/
+
+.service {
+    clear: both;
+}
+
+.service button {
+    float: left;
+}
+
+.service button:nth-child(2) {
+    float: right;
+}
+
+
+/********************************注册***********************/
+
+form i {
+    position: absolute;
+    right: 5px;
+    bottom: 12px;
+}
+
+.icon-ok-sign {
+    color: #0d0;
+}
+
+.icon-remove-sign {
+    color: #f00;
+}
+
+
+/**************************订单详情页*************/
+
+.no-order {
+    height: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/******************私人定制*************/
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+
+.content p {
+    text-align: center;
+}
+
+.content .button {
+    border: 1px solid #f00;
+    border-radius: 30px;
+    min-width: 0;
+    min-height: 0;
+    font-weight: bold;
+    color: #f00;
+}
+
+
+/********************地址**********/
+
+.address div.button {
+    margin: 100vw 50px 0;
+}
+
+
+/*****************优惠券**********/
+
+.coupons .button {
+    margin: 3vw 5vw;
+    width: 90vw;
+}
+
+.giftCard a {
+    margin-left: 5vw;
+}
+
+.rules {
+    padding: 5vw;
+    margin: 2vw;
+}
+
+
+/******************商品详情************/
+
+.goDetail {
+    background-color: #f5f5f5;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.banner .slider-pager .slider-pager-page {
+    color: #ef473a;
+}
+
+.goDetail .wrap {
+    white-space: normal;
+}
+
+.goDetail .item {
+    border: none;
+}
+
+.wrapB {
+    margin-top: 20px;
+}
+
+.wrapB span:nth-child(1) {
+    margin-right: 10px;
+}
+
+.wrapB span:nth-child(2) {
+    font-size: 25px;
+    font-weight: bold;
+    color: #ef473a;
+}
+
+.goDetail .item {
+    margin-bottom: 10px;
+}
+
+.listOne p {
+    color: #ef473a;
+}
+
+.listTwo strong {
+    font-weight: normal;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.listTwo div {
+    margin-bottom: 30px;
+}
+
+.listTwo span {
+    border: 1px solid #000;
+    margin: 0 5px;
+    padding: 5px;
+}
+
+span.choose-active {
+    border: 1px solid #ef473a;
+    color: #ef473a;
+}
+
+.count strong {
+    float: left;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.count div {
+    border: 1px solid #000;
+    text-align: center;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.count input {
+    width: 40px;
+    text-align: center;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    padding: 0;
+    float: left;
+}
+
+.count span {
+    width: 30px;
+    height: 34px;
+    border: none;
+    margin: 0;
+    padding: 0;
+    font-size: 23px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.detail img {
+    width: 100%;
+    border: none;
+    vertical-align: middle;
+}
+
+
+/*************评论**********/
+
+.tab-detail-active {
+    background-color: #fff;
+}
+
+.goDetail .g-tabs {
+    width: 100vw;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.comment p {
+    text-indent: 2em;
+    white-space: normal;
+    margin-bottom: 10px;
+}
+
+.comment-me {
+    overflow: hidden;
+}
+
+.comment-me span:nth-child(1) {
+    float: left;
+}
+
+.comment-me span:nth-child(2) {
+    float: right;
+}
+
+
+/*回到顶部*/
+
+.home ion-content {
+    overflow: scroll;
+}
+
+.home ion-content {
+    overflow: scroll;
+}
+
+.back_top {
+    position: fixed;
+    width: 35px;
+    height: 35px;
+    bottom: 55px;
+    right: 10px;
+    background: url(../img/icon-top.png) no-repeat;
+    background-size: 35px 35px;
+    z-index: 100;
+}
+
+.goBack {
+    padding: 13px 10px;
+}
+
+.bar-footer .buttons {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.bar-footer button {
+    width: 100%;
+}
+
+.bar-footer .buttons:nth-child(1) {
+    background-color: #fff;
+}
+
+.bar-footer .buttons:nth-child(2) .button {
+    font-size: 16px;
+}
+
+.bar-footer .buttons:nth-child(1) .activated {
+    background-color: #f5f5f5;
+}
+
+.bar-footer .ion-ios-cart::before {
+    font-size: 35px;
+    margin: 5px;
+    color: #666;
+}
+
+.bar-footer .ion-ios-cart {
+    border: none;
+    background-color: #fff;
+}
+
+.bar-footer .ion-ios-cart i {
+    position: relative;
+    top: -20px;
+    left: -15px;
+}
+
+.cartList img {
+    float: left;
+    width: 80px;
+}
+
+.cartList h2,
+p {
+    padding-left: 5px;
+}
+
+.money {
+    float: left;
+    padding: 5px;
+}
+
+span.delete {
+    margin-left: 20px;
+}

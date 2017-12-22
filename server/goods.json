@@ -1,0 +1,240 @@
+{
+    "goodsList": [{
+            "title": "推荐",
+            "typeName": "1"
+        },
+        {
+            "title": "男装",
+            "typeName": "2"
+        },
+        {
+            "title": "女装",
+            "typeName": "3"
+        },
+        {
+            "title": "男鞋",
+            "typeName": "4"
+        },
+        {
+            "title": "女鞋",
+            "typeName": "5"
+        },
+        {
+            "title": "袜品",
+            "typeName": "6"
+        },
+        {
+            "title": "家居",
+            "typeName": "7"
+        },
+        {
+            "title": "童装",
+            "typeName": "8"
+        },
+        {
+            "title": "内衣",
+            "typeName": "9"
+        },
+        {
+            "title": "配饰",
+            "typeName": "10"
+        }
+    ],
+    "recommend": [{
+        "img": "http://i6.m.vancl.com/oms/2016_10_9_16_26_8_6340_400x400.jpg",
+        "goodsName": "西服"
+    }, {
+        "img": "http://i8.m.vancl.com/oms/2016_10_9_16_17_5_8645_400x400.jpg",
+        "goodsName": "羽绒服"
+    }, {
+        "img": "http://p1.vanclimg.com/product/6/3/7/6375215/mid/6375215-1j201610261055279558.jpg",
+        "goodsName": "大衣"
+    }, {
+        "img": "http://i9.m.vancl.com/oms/2016_4_6_14_44_14_9401_153x153.jpg",
+        "goodsName": "免烫衬衫"
+    }, {
+        "img": "http://i9.m.vancl.com/oms/2016_10_9_16_15_45_9955_400x400.jpg",
+        "goodsName": "卫衣"
+    }, {
+        "img": "http://i9.m.vancl.com/oms/2016_4_6_14_44_14_9401_153x153.jpg",
+        "goodsName": "免烫衬衫"
+    }, {
+        "img": "http://i8.m.vancl.com/oms/2016_9_19_15_20_33_8404_400x400.jpg",
+        "goodsName": "法兰绒"
+    }, {
+        "img": "http://i1.m.vancl.com/oms/2016_9_19_15_21_38_1194_400x400.jpg",
+        "goodsName": "牛津纺"
+    }, {
+        "img": "http://i9.m.vancl.com/oms/2016_4_6_14_44_14_9401_153x153.jpg",
+        "goodsName": "免烫衬衫"
+    }, {
+        "img": "http://i9.m.vancl.com/oms/2016_4_6_14_44_14_9401_153x153.jpg",
+        "goodsName": "免烫衬衫"
+    }, {
+        "img": "http://i9.m.vancl.com/oms/2016_4_6_14_44_14_9401_153x153.jpg",
+        "goodsName": "免烫衬衫"
+    }],
+    "manClo": [{
+        "img": "http://p2.vanclimg.com/product/6/3/7/6374122/mid/6374122-1j201608221146450499.jpg",
+        "goodsName": "休闲衬衫"
+    }, {
+        "img": "http://p3.vanclimg.com/product/6/3/7/6375127/mid/6375127-1j201609121405271639.jpg",
+        "goodsName": "长袖衬衫"
+    }, {
+        "img": "http://i6.m.vancl.com/oms/2016_10_9_16_26_8_6340_400x400.jpg",
+        "goodsName": "卫衣"
+    }, {
+        "img": "http://p1.vanclimg.com/product/6/3/7/6375170/mid/6375170-1j201609071437439032.jpg",
+        "goodsName": "长袖衬衫"
+    }, {
+        "img": "http://i1.m.vancl.com/oms/2016_5_6_14_41_44_1932_153x153.jpg",
+        "goodsName": "麻裤"
+    }, {
+        "img": "http://i8.m.vancl.com/oms/2016_9_19_15_20_33_8404_400x400.jpg",
+        "goodsName": "卫衣"
+    }, {
+        "img": "http://i9.m.vancl.com/oms/2016_5_5_16_11_3_9423_153x153.jpg",
+        "goodsName": "运动速干"
+    }],
+    "womenClo": [{
+            "img": "http://p5.vanclimg.com/product/6/3/7/6375412/mid/6375412-1j201611021646150328.jpg",
+            "goodsName": "羽绒服"
+        },
+        {
+            "img": "http://p2.vanclimg.com/product/6/3/7/6375446/mid/6375446-1j201611021648500008.jpg",
+            "goodsName": "大衣"
+        },
+        {
+            "img": "http://p1.vanclimg.com/product/6/3/7/6374216/mid/6374216-1j201608231413574858.jpg",
+            "goodsName": "面线衫"
+        }, {
+            "img": "http://p4.vanclimg.com/product/6/3/7/6373657/mid/6373657-1j201510141541387076.jpg",
+            "goodsName": "卫衣"
+        },
+        {
+            "img": "http://i2.m.vancl.com/oms/2016_12_5_10_34_50_2637_400x400.jpg",
+            "goodsName": "针织裤"
+        }, {
+            "img": "http://i6.m.vancl.com/oms/2015_10_12_16_37_2_6042.jpg",
+            "goodsName": "牛仔裤"
+        }, {
+            "img": "http://p4.vanclimg.com/product/6/3/7/6373887/mid/6373887-1j201604071823348140.jpg",
+            "goodsName": "水柔棉"
+        }
+    ],
+    "manShoes": [{
+            "img": "http://i7.m.vancl.com/oms/2016_11_4_14_42_3_7460_400x400.jpg",
+            "goodsName": "复古跑"
+        },
+        {
+            "img": "http://i8.m.vancl.com/oms/2016_9_29_15_2_16_8518_400x400.jpg",
+            "goodsName": "户外鞋"
+        },
+        {
+            "img": "http://i8.m.vancl.com/oms/2016_9_29_15_6_1_8562_400x400.jpg",
+            "goodsName": "皮鞋"
+        }, {
+            "img": "http://mimages.vancl.com/oms/2016_9_29_15_4_54_591_400x400.jpg",
+            "goodsName": "休闲鞋"
+        },
+        {
+            "img": "http://i5.m.vancl.com/oms/2016_9_29_15_15_3_5577_400x400.jpg",
+            "goodsName": "帆布鞋"
+        }
+    ],
+    "womenShoes": [{
+            "img": "http://i5.m.vancl.com/oms/2016_9_29_15_6_45_5104_400x400.jpg",
+            "goodsName": "帆布鞋"
+        },
+        {
+            "img": "http://i6.m.vancl.com/oms/2016_11_2_10_34_32_6995_400x400.jpg",
+            "goodsName": "休闲鞋"
+        },
+        {
+            "img": "http://i8.m.vancl.com/oms/2016_9_29_15_6_1_8562_400x400.jpg",
+            "goodsName": "皮鞋"
+        }, {
+            "img": "http://mimages.vancl.com/oms/2016_9_29_15_4_54_591_400x400.jpg",
+            "goodsName": "休闲鞋"
+        },
+        {
+            "img": "http://i5.m.vancl.com/oms/2016_9_29_15_15_3_5577_400x400.jpg",
+            "goodsName": "帆布鞋"
+        }
+    ],
+    "socks": [{
+            "img": "http://i5.m.vancl.com/oms/2016_9_29_15_6_45_5104_400x400.jpg",
+            "goodsName": "帆布鞋"
+        },
+        {
+            "img": "http://i6.m.vancl.com/oms/2016_11_2_10_34_32_6995_400x400.jpg",
+            "goodsName": "休闲鞋"
+        },
+        {
+            "img": "http://i8.m.vancl.com/oms/2016_9_29_15_6_1_8562_400x400.jpg",
+            "goodsName": "皮鞋"
+        },
+        {
+            "img": "http://i8.m.vancl.com/oms/2016_9_29_15_6_1_8562_400x400.jpg",
+            "goodsName": "皮鞋"
+        }
+    ],
+    "household": [{
+            "img": "http://i5.m.vancl.com/oms/2016_9_29_15_6_45_5104_400x400.jpg",
+            "goodsName": "帆布鞋"
+        },
+        {
+            "img": "http://i6.m.vancl.com/oms/2016_11_2_10_34_32_6995_400x400.jpg",
+            "goodsName": "休闲鞋"
+        },
+        {
+            "img": "http://i8.m.vancl.com/oms/2016_9_29_15_6_1_8562_400x400.jpg",
+            "goodsName": "皮鞋"
+        }, {
+            "img": "http://mimages.vancl.com/oms/2016_9_29_15_4_54_591_400x400.jpg",
+            "goodsName": "休闲鞋"
+        },
+        {
+            "img": "http://i5.m.vancl.com/oms/2016_9_29_15_15_3_5577_400x400.jpg",
+            "goodsName": "帆布鞋"
+        }
+    ],
+    "chilrenClo": [{
+            "img": "http://i5.m.vancl.com/oms/2016_9_29_15_6_45_5104_400x400.jpg",
+            "goodsName": "帆布鞋"
+        },
+        {
+            "img": "http://i6.m.vancl.com/oms/2016_11_2_10_34_32_6995_400x400.jpg",
+            "goodsName": "休闲鞋"
+        },
+        {
+            "img": "http://i8.m.vancl.com/oms/2016_9_29_15_6_1_8562_400x400.jpg",
+            "goodsName": "皮鞋"
+        },
+        {
+            "img": "http://i8.m.vancl.com/oms/2016_9_29_15_6_1_8562_400x400.jpg",
+            "goodsName": "皮鞋"
+        }
+    ],
+    "underwear": [{
+            "img": "http://i5.m.vancl.com/oms/2016_9_29_15_6_45_5104_400x400.jpg",
+            "goodsName": "帆布鞋"
+        },
+        {
+            "img": "http://i6.m.vancl.com/oms/2016_11_2_10_34_32_6995_400x400.jpg",
+            "goodsName": "休闲鞋"
+        },
+        {
+            "img": "http://i8.m.vancl.com/oms/2016_9_29_15_6_1_8562_400x400.jpg",
+            "goodsName": "皮鞋"
+        },
+        {
+            "img": "http://i8.m.vancl.com/oms/2016_9_29_15_6_1_8562_400x400.jpg",
+            "goodsName": "皮鞋"
+        }
+    ],
+    "accessories": [{
+        "img": "http://i2.m.vancl.com/oms/2016_4_6_14_31_43_2443_153x153.jpg",
+        "goodsName": "披肩"
+    }]
+}

@@ -1,0 +1,60 @@
+<ion-view view-title="购物车" class="cart" ng-controller="cartController">
+
+    <ion-nav-buttons>
+        <div class="buttons">
+            <button class="button button-icon icon ion-ios-minus-outline" ng-click="data.showDelete = !data.showDelete; data.showReorder = false"></button>
+        </div>
+        <h1 class="title"></h1>
+        <div class="buttons">
+            <button class="button" ng-click="data.showDelete = false; data.showReorder = !data.showReorder"></button>
+        </div>
+    </ion-nav-buttons>
+
+    <ion-content class="emptyCart">
+        <ion-refresher pulling-text="下拉刷新" on-refresh="refresh()" refreshing-text="努力加载中..."></ion-refresher>
+
+        <div class="card">
+            <img src="img/cart.png" alt="">
+        </div>
+
+        <div class="c-button">
+            <button class="button button-stable">
+                 我的收藏
+            </button>
+            <button ui-sref="tabs.home" class="button button-stable">
+                去逛逛
+            </button>
+        </div>
+
+    </ion-content>
+
+    <ion-content class="cartList">
+
+        <div class="list" ng-repeat="c in chooseData">
+
+            <a class="item">
+                <img src="{{c.imgSrc}}">
+                <h2 ng-bind="c.title"></h2>
+                <p> 颜色:
+                    <span ng-bind="c.color"></span> 尺码:
+                    <span ng-bind="c.size"></span>
+                </p>
+                <div>
+                    <span class="money" ng-bind="c.money"></span>
+                    <span class="count">
+                        <div>
+                            <span class="reduce" ng-click="reduce()">-</span>
+                    <input class="count-input" type="text" readonly ng-model="goodsInfo.number" />
+                    <span class="add" ng-click="add()">+</span>
+                </div>
+                <span class="delete icon ion-trash-a" ng-click="clearCart()"></span>
+                </span>
+        </div>
+
+        </a>
+
+        </div>
+        </ion-list>
+
+    </ion-content>
+</ion-view>

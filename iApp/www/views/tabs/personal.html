@@ -1,0 +1,71 @@
+<ion-view view-title="个人中心">
+
+    <ion-nav-buttons>
+        <div ui-sref="tabs.set" class="button icon-left ion-gear-a button-clear" style="padding-top:5px;"></div>
+    </ion-nav-buttons>
+
+    <ion-content class="person" overflow-scroll="true">
+        <section class="personTop">
+            <button ui-sref="tabs.login" class="button button-clear button-light btnLogin">点击登录</button>
+            <button class="button button-clear button-light btnUser"></button>
+            <div class="userImg">
+                <img src="img/personPic.png" alt="">
+            </div>
+            <ul>
+                <li><a><i>0</i><p>账户余额</p></a></li>
+                <li><a><i>0</i><p>积分</p></a></li>
+                <li><a><i>0</i><p>优惠券</p></a></li>
+                <li><a><i>0</i><p>我的收藏</p></a></li>
+            </ul>
+        </section>
+        <ion-list class="order" ui-sref="tabs.order">
+            <ion-item class="orderTop">
+                <span><i class="ion-ios-list-outline"></i></span>
+                <h2>我的购物订单</h2>
+                <a>查看全部订单<i class="ion-ios-arrow-right"></i></a>
+            </ion-item>
+            <div class="orderBottom">
+                <ion-item>
+                    <i class="icon ion-ios-pulse"></i>
+                    <p>进行中</p>
+                </ion-item>
+                <ion-item>
+                    <i class="icon ion-ios-checkmark-outline"></i>
+                    <p>已完成</p>
+                </ion-item>
+                <ion-item>
+                    <i class="icon ion-ios-close-outline"></i>
+                    <p>无效</p>
+                </ion-item>
+            </div>
+        </ion-list>
+
+        <div class="list foot">
+            <a class="item item-icon-right" ui-sref="tabs.privateCustom">
+                私人定制
+                <i class="icon ion-ios-arrow-right"></i>
+            </a>
+            <a class="item item-icon-right" ui-sref="tabs.logistics">
+                物流查询
+                <i class="icon ion-ios-arrow-right"></i>
+            </a>
+            <a class="item item-icon-right" ui-sref="tabs.address">
+                地址管理
+                <i class="icon ion-ios-arrow-right"></i>
+            </a>
+            <a class="item item-icon-right" ui-sref="tabs.coupons">
+                我的优惠券
+                <i class="icon ion-ios-arrow-right"></i>
+            </a>
+            <a class="item item-icon-right" ui-sref="tabs.giftCard">
+                我的礼品卡
+                <i class="icon ion-ios-arrow-right"></i>
+            </a>
+            <a class="item item-icon-right">
+                我的积分
+                <i class="icon ion-ios-arrow-right"></i>
+            </a>
+        </div>
+
+    </ion-content>
+</ion-view>

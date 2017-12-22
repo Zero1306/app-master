@@ -1,0 +1,36 @@
+<ion-view view-title="登录">
+    <ion-content>
+
+        <div class="list list-inset">
+
+            <form name="login" novalidate ng-submit="submit()" ng-controller="loginController">
+                <label class="item item-input item-floating-label">
+                    <span class="input-label">用户名:</span>
+                    <input type="text" ng-pattern="/[\u4e00-\u9fa5\w]{2,16}/" name="username" ng-minlength="2" ng-maxlength="11" ng-model="username" placeholder="请输入2-11位用户名" autocomplete="off" required>
+                    <i class="icon-ok-sign" ng-show="login.username.$valid&&login.username.$dirty"></i>
+                    <i class="icon-remove-sign" ng-show="login.username.$invalid&&login.username.$dirty"></i>
+                </label>
+                <label class="item item-input item-floating-label">
+                    <span class="input-label">密码</span>
+                    <input type="password" name="password" ng-pattern="/\w/" ng-minlength="6" ng-model="password" placeholder="请输入密码" autocomplete="off" required>
+                    <i class="icon-ok-sign" ng-show="login.password.$valid&&login.password.$dirty"></i>
+                    <i class="icon-remove-sign" ng-show="login.password.$invalid&&login.password.$dirty"></i>
+                </label>
+
+                <button type="submit" ng-disabled="login.$invalid" class="button button-block button-assertive">
+                    登录
+                </button>
+            </form>
+
+            <div class="service">
+                <button ui-sref="tabs.register" class="button button-clear button-dark">
+                    免费注册 >
+                </button>
+                <button class="button button-clear button-dark">
+                    忘记密码？
+                </button>
+            </div>
+        </div>
+
+    </ion-content>
+</ion-view>

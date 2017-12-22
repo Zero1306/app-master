@@ -1,0 +1,51 @@
+<div class="page-brand">
+    <ion-header-bar class="bar-subheader">
+        <ion-list on-swipe-left="swipeLeft()" on-swipe-right="swipeRight()" class="nowrap">
+            <ion-item class="zy-tabs {{$index == 0 ? 'item-active' : ''}}" ng-repeat="t in data" ng-click="change($index)">
+                {{t.title}}
+            </ion-item>
+        </ion-list>
+    </ion-header-bar>
+
+    <ion-content>
+        <ion-slide-box on-slide-changed="change($index)">
+            <ion-slide>
+                <ion-list>
+                    <ion-item ng-repeat="r in brand.brand1">
+                        <img src={{r.img}} alt="">
+                    </ion-item>
+                </ion-list>
+            </ion-slide>
+            <ion-slide>
+                <ion-list>
+                    <ion-item ng-repeat="m in brand.brand2">
+                        <img src={{m.img}} alt="">
+                    </ion-item>
+                </ion-list>
+            </ion-slide>
+            <ion-slide>
+                <ion-list>
+                    <ion-item ng-repeat="w in brand.brand3">
+                        <img src={{w.img}} alt="">
+                    </ion-item>
+                </ion-list>
+            </ion-slide>
+            <ion-slide>
+                <ion-list>
+                    <ion-item ng-repeat="w in brand.brand4">
+                        <img src={{w.img}} alt="">
+                    </ion-item>
+                </ion-list>
+            </ion-slide>
+            <ion-slide>
+                <ion-list>
+                    <ion-item ng-repeat="w in brand.brand5">
+                        <img src={{w.img}} alt="">
+                    </ion-item>
+                </ion-list>
+            </ion-slide>
+
+        </ion-slide-box>
+
+    </ion-content>
+</div>

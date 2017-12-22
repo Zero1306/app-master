@@ -1,0 +1,152 @@
+<ion-view view-title="商城首页" hide-nav-bar="true" class="home" ng-controller="homeController">
+    <ion-header-bar align-title="left" class="bar-assertive" style="padding-top:6px;">
+
+        <label class="item-input-wrapper" ui-sref="search" style="height: 33px;">
+            <i class="icon ion-ios-search placeholder-icon" style="margin: 20px 0px;color: #bbb"></i>
+            <input class="small-text" type="search" ng-model="searchStr" style="background: transparent;width: 100%"
+             placeholder="请输入商品名称">
+        </label>
+
+        <div class="buttons">
+            <div ui-sref="tabs.message" class="button ion-chatbox-working button-clear" style="font-size:25px;color:#ccc;"></div>
+        </div>
+    </ion-header-bar>
+
+
+    <ion-content class="mallBC" scroll="false" id="top">
+        <ion-slide-box auto-play="true" slide-interval="3000" does-continue="true" id="slide-box">
+            <ion-slide>
+                <img src="img/banner_one.jpg" alt="banner1">
+            </ion-slide>
+            <ion-slide>
+                <img src="img/banner_two.jpg" alt="banner2">
+            </ion-slide>
+            <ion-slide>
+                <img src="img/banner_three.jpg" alt="banner3">
+            </ion-slide>
+            <ion-slide>
+                <img src="img/banner_four.jpg" alt="banner4">
+            </ion-slide>
+            <ion-slide>
+                <img src="img/banner_five.jpg" alt="banner5">
+            </ion-slide>
+        </ion-slide-box>
+        <ion-list class="listnav">
+            <ion-item>
+                <img src="img/pag.png" alt="">
+                <p>大聚惠</p>
+            </ion-item>
+            <ion-item>
+                <img src="img/buy.png" alt="">
+                <p>海外购</p>
+            </ion-item>
+            <ion-item>
+                <img src="img/market.png" alt="">
+                <p>超市百货</p>
+            </ion-item>
+            <ion-item>
+                <img src="img/sale.png" alt="">
+                <p>厂家直销</p>
+            </ion-item>
+            <ion-item>
+                <img src="img/enjoy.png" alt="">
+                <p>美食娱乐</p>
+            </ion-item>
+        </ion-list>
+        <ion-list class="listgoods">
+            <h4>商城客户</h4>
+            <ion-item>
+                <img src="img/goods_one.jpg" alt="">
+                <p>大聚惠</p>
+            </ion-item>
+            <ion-item>
+                <img src="img/goods_two.png" alt="">
+                <p>海外购</p>
+            </ion-item>
+            <ion-item>
+                <img src="img/goods_three.png" alt="">
+                <p>超市百货</p>
+            </ion-item>
+            <ion-item>
+                <img src="img/goods_four.png" alt="">
+                <p>厂家直销</p>
+            </ion-item>
+        </ion-list>
+        <ion-list class="goodsale tj">
+            <h4>优惠促销</h4>
+            <ion-item>
+                <a ui-sref="tabs.goDetail">
+                    <img src="img/clothes1.jpg" alt="">
+                </a>
+                <h5>黑色男款上衣</h5>
+                <span>￥799.00</span>
+                <del>$988.00</del>
+            </ion-item>
+
+            <ion-item>
+                <a ui-sref="tabs.goDetail">
+                    <img src="img/clothes2.jpg" alt=""></a>
+                <h5>收款海绵包包</h5>
+                <span>￥68.00</span>
+                <del>$75.00</del>
+            </ion-item>
+            <ion-item>
+                <a ui-sref="tabs.goDetail">
+                    <img src="img/clothes3.jpg" alt=""></a>
+                <h5>玫瑰杠铃印花露脐短袖</h5>
+                <span>￥68.00</span>
+                <del>$75.00</del>
+            </ion-item>
+            <ion-item>
+                <a ui-sref="tabs.goDetail">
+                    <img src="img/clothes5.jpg" alt=""></a>
+                <h5>收款海绵包包</h5>
+                <span>￥68.00</span>
+                <del>$75.00</del>
+            </ion-item>
+            <ion-item>
+                <a ui-sref="tabs.goDetail">
+                    <img src="img/clothes4.jpg" alt=""></a>
+                <h5>收款海绵包包</h5>
+                <span>￥68.00</span>
+                <del>$75.00</del>
+            </ion-item>
+            <ion-item>
+                <a ui-sref="tabs.goDetail">
+                    <img src="img/clothes6.jpg" alt=""></a>
+                <h5>中袖修身卫衣</h5>
+                <span>￥68.00</span>
+                <del>$75.00</del>
+            </ion-item>
+        </ion-list>
+
+        <ion-list class="tj">
+            <h4>每日特价 10点上线</h4>
+            <a><img src="http://m1.banggo.com/sources/cms/PPPAAA/11215banner-960-1_m1--.jpg" alt=""></a>
+            <a><img src="http://m1.banggo.com/sources/cms/PPPAAA/1215banner-960-2_m1--.jpg" alt=""></a>
+        </ion-list>
+        <ion-list class="tj ts">
+            <h4>特色场馆</h4>
+            <a><img src="http://m1.banggo.com/sources/cms/926pc/prodect2_22_m1--.jpg" alt=""></a>
+            <a><img src="http://m1.banggo.com/sources/cms/926pc/prodect2_32_m1--.jpg" alt=""></a>
+        </ion-list>
+        <ion-list class="tj ts">
+            <h4>新品推荐</h4>
+            <a ui-sref="tabs.goDetail"><img src="http://i7.m.vancl.com/wap/2016_12_16_17_12_51_7851_320x504.jpg" alt=""></a>
+            <a ui-sref="tabs.goDetail"><img src="http://i8.m.vancl.com/wap/2016_12_16_17_13_9_8170_320x504.jpg" alt=""></a>
+            <a ui-sref="tabs.goDetail"><img src="http://i3.m.vancl.com/wap/2016_12_16_17_13_20_3526_320x505.jpg" alt=""></a>
+            <a ui-sref="tabs.goDetail"><img src="http://i8.m.vancl.com/wap/2016_12_16_10_33_5_8958_320x505.jpg" alt=""></a>
+            <a ui-sref="tabs.goDetail"><img src="http://i5.m.vancl.com/wap/2016_12_16_9_46_1_5087_320x504.jpg" alt=""></a>
+            <a ui-sref="tabs.goDetail"><img src="http://i2.m.vancl.com/wap/2016_12_7_10_10_14_2651_320x504.jpg" alt=""></a>
+            <a ui-sref="tabs.goDetail"><img src="http://i6.m.vancl.com/wap/2016_12_7_10_10_28_6655_320x503.jpg" alt=""></a>
+            <a ui-sref="tabs.goDetail"><img src="http://i7.m.vancl.com/wap/2016_12_12_16_0_25_7360_320x503.jpg" alt=""></a>
+            <a ui-sref="tabs.goDetail"><img src="http://i6.m.vancl.com/wap/2016_12_6_9_19_9_6533_320x504.jpg" alt=""></a>
+            <a ui-sref="tabs.goDetail"><img src="http://i2.vanclimg.com/cms/20161130/123_12.jpg" alt=""></a>
+            <a ui-sref="tabs.goDetail"><img src="http://mimages.vancl.com/wap/2016_12_7_10_10_46_703_320x505.jpg" alt=""></a>
+            <a ui-sref="tabs.goDetail"><img src="http://i2.m.vancl.com/wap/2016_12_7_10_10_58_2090_320x505.jpg" alt=""></a>
+        </ion-list>
+
+        <!--回到顶部-->
+        <div class="back_top"></div>
+    </ion-content>
+</ion-view>

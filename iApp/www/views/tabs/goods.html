@@ -1,0 +1,41 @@
+<ion-view view-title="商品分类" hide-nav-bar="true" class="goods">
+
+    <ion-header-bar>
+        <div class="g-tabs">
+            <a class="classify tab-item-active" ng-click="page='views/tabs/goods/classify.html'">
+                分类
+            </a>
+            <a class="brand" ng-click="page='views/tabs/goods/brand.html'">
+                品牌
+            </a>
+        </div>
+    </ion-header-bar>
+
+    <div ng-include="page">
+
+    </div>
+    <ion-content class="g-classify h-classify" scroll="false">
+        <div class="row">
+            <div class="col col-25">
+                <ul>
+                    <li ng-class="$index==0?'nav-current':'nav-blur'" ng-repeat="t in data" ng-click="categoryLeftClick($event);getCategoryDetailData(t.typeName)">{{t.title}}</li>
+                </ul>
+            </div>
+
+            <div class="col col-75">
+                <div class="banner">
+                    <img src="" alt="">
+                </div>
+                <div class="content">
+                    <ion-list>
+                        <ion-item ng-repeat="r in categoryDetailData">
+                            <a><img src={{r.img}} alt=""></a>
+                            <p>{{r.goodsName}}</p>
+                        </ion-item>
+                    </ion-list>
+                </div>
+            </div>
+        </div>
+    </ion-content>
+
+</ion-view>

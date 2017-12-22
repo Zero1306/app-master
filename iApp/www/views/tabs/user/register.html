@@ -1,0 +1,35 @@
+<ion-view view-title="注册" class="register">
+    <ion-content>
+
+        <div class="list list-inset">
+            <form name="register" novalidate ng-submit="submit()" ng-controller="registerController">
+                <label class="item item-input item-floating-label">
+                    <span class="input-label">用户名:</span>
+                    <input type="text" ng-pattern="/[\u4e00-\u9fa5\w]{2,16}/" ng-minlength="2" ng-maxlength="11" name="username" ng-model="username" placeholder="请输入2-11位用户名" autocomplete="off" required>
+                    <i class="icon-ok-sign" ng-show="register.username.$valid&&register.username.$dirty"></i>
+                    <i class="icon-remove-sign" ng-show="register.username.$invalid&&register.username.$dirty"></i>
+                </label>
+                <label class="item item-input item-floating-label">
+                    <span class="input-label">密码:</span>
+                    <input type="password" name="password" ng-model="password" ng-pattern="/\w/" ng-minlength="6" placeholder="请输入密码" autocomplete="off" required>
+                    <i class="icon-ok-sign" ng-show="register.password.$valid&&register.password.$dirty"></i>
+                    <i class="icon-remove-sign" ng-show="register.password.$invalid&&register.password.$dirty"></i>
+                </label>
+                <label class="item item-input item-floating-label">
+                    <span class="input-label">确认密码:</span>
+                    <input type="password" name="repassword" ng-model="repassword" ng-pattern="/\w/" placeholder="请再次输入密码" autocomplete="off" required>
+                    <i class="icon-ok-sign" ng-show="register.repassword.$valid&&register.repassword.$dirty&&repassword == password"></i>
+                    <i class="icon-remove-sign" ng-show="register.repassword.$invalid&&register.repassword.$dirty||repassword != password&&register.repassword.$dirty"></i>
+                </label>
+                <button type="submit" ng-disabled="register.$invalid||password != repassword" class="button button-block button-assertive">
+                    点击注册
+                </button>
+            </form>
+
+            <button ui-sref="tabs.login" class="button button-block button-dark button-clear">
+                已有账号？点此登录
+            </button>
+        </div>
+
+    </ion-content>
+</ion-view>

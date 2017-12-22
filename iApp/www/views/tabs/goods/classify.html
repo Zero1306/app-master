@@ -1,0 +1,23 @@
+<ion-content class="g-classify scoll-content" scroll="false">
+    <div class="row">
+        <div class="col col-25">
+            <ul>
+                <li ng-class="$index==0?'nav-current':'nav-blur'" ng-repeat="t in data" ng-click="categoryLeftClick($event);getCategoryDetailData(t.typeName)">{{t.title}}</li>
+            </ul>
+        </div>
+
+        <div class="col col-75">
+            <div class="banner">
+                <img src="" alt="">
+            </div>
+            <div class="content">
+                <ion-list>
+                    <ion-item ng-repeat="r in categoryDetailData">
+                        <img src={{r.img}} alt="">
+                        <p>{{r.goodsName}}</p>
+                    </ion-item>
+                </ion-list>
+            </div>
+        </div>
+    </div>
+</ion-content>

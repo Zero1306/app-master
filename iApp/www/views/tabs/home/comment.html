@@ -1,0 +1,12 @@
+<ion-list class="comment">
+    <ion-item ng-repeat="c in comment">
+        <p>{{c.content}}</p>
+        <div class="comment-me">
+            <span>{{c.from}}</span>
+            <span>{{c.time}}</span>
+        </div>
+    </ion-item>
+</ion-list>
+
+<!--上拉加载更多-->
+<ion-infinite-scroll on-infinite="loadMore()"></ion-infinite-scroll>
